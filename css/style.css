@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color: white;
+}
+div {
+    background-color:lightgray;
+    margin-top: 15px;
+}
+.header{
+	text-align: center;
+	text-decoration: underline;
+	font-family: 'Courgette', sans-serif;
+    color:navy;
+	font-size:44px;
+}
+ul.items{
+list-style-type: none;
+font-size:20px;
+
+}
+.list-items, img{
+	text-align: center;
+	font-family: 'Courgette', sans-serif;
+    color:navy;
+    display: inline-block;
+}
+.list-items{
+	width:600px;
+	margin-left: 100px;
+}
+img{
+	height: 260px;
+	width: 260px;
+}
+.strike{
+	text-decoration: line-through;
+}
+.list-add{
+	text-align: center;
+
+}
