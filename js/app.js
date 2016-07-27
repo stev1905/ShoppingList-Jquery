@@ -1,5 +1,6 @@
 $( document ).ready(function() {
 	$("#submit").click(function(){
+
 		//alert("Submit button works!!")
   		$('.items').append('<li>' + '<input type="checkbox" name="checkbox" id="checkbox"> ' + $('#text').val() + ' <span class="glyphicon glyphicon-trash"></span></li>')
     	$("#text").val('');
@@ -9,5 +10,9 @@ $( document ).ready(function() {
 	    	$('.items').append('<li>' + '<input type="checkbox" name="checkbox" id="checkbox"> ' + $('#text').val() + ' <span class="glyphicon glyphicon-trash"></span></li>')
     		$("#text").val('');
 		}
+
     });
+    $(document).on('change', '[type=checkbox]', function () {
+		alert('clicked');
+	});
 });
