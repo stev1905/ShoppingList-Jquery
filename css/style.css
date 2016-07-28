@@ -19,9 +19,20 @@ div {
     color:navy;
 	font-size:44px;
 }
+li{
+	text-align: left;
+}
+
+ul{
+	text-align: center;
+}
 ul.items{
 list-style-type: none;
 font-size:20px;
+text-align: center;
+font-family: 'Courgette', sans-serif;
+color:navy;
+margin-left:535px;
 
 }
 .list-items, img{
@@ -44,4 +55,10 @@ img{
 .list-add{
 	text-align: center;
 
+}
+.items{
+	text-align: center;
+	font-family: 'Courgette', sans-serif;
+    color:navy;
+    display: inline-block;
 }
